@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center -mt-10  overflow-hidden"
+      className="relative min-h-screen flex items-center  overflow-hidden"
     >
-      <div className="max-w-360 mx-auto px-12 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center w-full">
+      <div className="max-w-360 mx-auto px-10 pt-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center w-full">
         <div className="lg:col-span-6 space-y-8 z-10">
           <p className="text-blue-500 font-semibold tracking-[0.15em] text-sm uppercase">
             Welcome to my portfolio!

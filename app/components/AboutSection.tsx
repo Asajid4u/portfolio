@@ -1,24 +1,11 @@
-// export default function AboutSection() {
-//   return (
-//     <section className="max-w-4xl text-center px-6">
-//       <h2 className="text-4xl font-bold mb-6">
-//         About <span className="text-blue-400">Me</span>
-//       </h2>
-//       <p className="text-gray-300 text-lg leading-relaxed">
-//         I'm a visual designer from London. I specialize in building
-//         beautiful and functional web experiences. I focus on UI design,
-//         branding, and interactive development.
-//       </p>
-//     </section>
-//   );
-// }
+
 
 export default function AboutSection() {
   return (
     <section className="max-w-6xl mx-auto px-6  text-white">
       
       {/* Heading */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-16 pt-25">
         <p className="text-blue-400 text-sm tracking-wider uppercase mb-3">
           Who I Am
         </p>

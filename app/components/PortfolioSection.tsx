@@ -1,24 +1,3 @@
-// export default function PortfolioSection() {
-//   return (
-//     <section className="max-w-5xl px-6 text-center">
-//       <h2 className="text-4xl font-bold mb-10">
-//         My <span className="text-blue-400">Portfolio</span>
-//       </h2>
-
-//       <div className="grid md:grid-cols-3 gap-8">
-//         <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
-//           Project 1
-//         </div>
-//         <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
-//           Project 2
-//         </div>
-//         <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
-//           Project 3
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 
 export default function PortfolioSection() {
   const projects = [
@@ -58,7 +37,7 @@ export default function PortfolioSection() {
     <section className="max-w-7xl mx-auto px-6 -pt-5 text-white">
 
       {/* Heading */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-8 pt-15">
         <p className="text-blue-400 text-sm tracking-wider uppercase mb-3">
           My Work
         </p>

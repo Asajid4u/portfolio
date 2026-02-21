@@ -1,13 +1,14 @@
 
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import Hero from './Hero';
 
 // Import other sections here as you build them
 
 export default function Home() {
   return (
-    <main className="relative bg-[#080b14] min-h-screen">
-      <Navbar />
+    <main className="relative bg-[#080b14] min-h-screen ">
+    
+      {/* <Navbar /> */}
       
       {/* BACKGROUND GLOW */}
       <div className="fixed top-[-10%] left-[-5%] w-[600px] h-[600px] bg-blue-600/10 blur-[120px] rounded-full pointer-events-none z-0" />
