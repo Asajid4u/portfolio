@@ -53,9 +53,10 @@ const Hero = () => {
           <div className="relative w-[400px] h-[520px]">
             <div className="w-full h-full rounded-[180px] overflow-hidden border border-white/10 relative z-10 bg-[#121725] shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=450&h=580&auto=format&fit=crop"
+                // src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=450&h=580&auto=format&fit=crop"
+                src='/Sajid pic.jpg'
                 alt="Profile"
-                className="w-full h-full object-cover grayscale brightness-90"
+                className="w-full h-full object-cover"
               />
             </div>
             {/* <div className="absolute -top-8 -left-8 w-20 h-20 z-20 drop-shadow-[0_20px_30px_rgba(59,130,246,0.5)]">
