@@ -15,7 +15,7 @@
 
 export default function AboutSection() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-24 text-white">
+    <section className="max-w-6xl mx-auto px-6  text-white">
       
       {/* Heading */}
       <div className="text-center mb-16">

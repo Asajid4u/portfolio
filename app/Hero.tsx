@@ -6,19 +6,19 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center pt-20 overflow-hidden"
+      className="relative min-h-screen flex items-center -mt-19  overflow-hidden"
     >
-      <div className="max-w-[1440px] mx-auto px-12 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center w-full">
+      <div className="max-w-360 mx-auto px-12 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center w-full">
         <div className="lg:col-span-6 space-y-8 z-10">
           <p className="text-blue-500 font-semibold tracking-[0.15em] text-sm uppercase">
             Welcome to my portfolio!
           </p>
-          <h1 className="text-7xl xl:text-[100px] font-bold leading-[0.95] tracking-tight text-white">
-            Hello, my <br /> name's{" "}
+          <h1 className="text-7xl xl:text-[78px] font-bold leading-[0.95] tracking-tight text-white">
+            Hello, my <br /> name{" "}
             <span className="text-blue-500">Sajid Ansari</span>
           </h1>
           <p className="text-gray-400 max-w-md text-lg leading-relaxed font-light">
-            I'm a visual designer from London. Currently working with{" "}
+            I&apos;m a visual designer from India. Currently working with{" "}
             <span className="text-white font-medium italic">@Ideo</span> as a UI
             Consultant.
           </p>
@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="lg:col-span-6 relative flex justify-center lg:justify-end pr-10">
+        <div className="lg:col-span-6 relative flex justify-center lg:justify-end pr-20">
           <div className="relative w-[400px] h-[520px]">
             <div className="w-full h-full rounded-[180px] overflow-hidden border border-white/10 relative z-10 bg-[#121725] shadow-2xl">
               <img
@@ -58,12 +58,12 @@ const Hero = () => {
                 className="w-full h-full object-cover grayscale brightness-90"
               />
             </div>
-            <div className="absolute -top-8 -left-8 w-20 h-20 z-20 drop-shadow-[0_20px_30px_rgba(59,130,246,0.5)]">
+            {/* <div className="absolute -top-8 -left-8 w-20 h-20 z-20 drop-shadow-[0_20px_30px_rgba(59,130,246,0.5)]">
               <div
                 className="w-full h-full bg-gradient-to-br from-blue-300 to-blue-600"
                 style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
               />
-            </div>
+            </div> */}
           </div>
           <div className="absolute -right-16 top-1/2 -translate-y-1/2 flex flex-col items-center gap-10">
             <span className="rotate-90 text-[10px] font-black tracking-[0.5em] text-gray-700 uppercase mb-14 whitespace-nowrap">

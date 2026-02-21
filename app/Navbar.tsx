@@ -32,7 +32,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-6 text-white">
+    <nav className="flex justify-between items-center p-6 text-white cursor-pointer">
       <h1 className="text-lg font-semibold">Portfolio</h1>
 
       <ul className="flex gap-8">

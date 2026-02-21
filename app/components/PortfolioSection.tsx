@@ -55,7 +55,7 @@ export default function PortfolioSection() {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-24 text-white">
+    <section className="max-w-7xl mx-auto px-6 -pt-5 text-white">
 
       {/* Heading */}
       <div className="text-center mb-16">
@@ -68,7 +68,7 @@ export default function PortfolioSection() {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 ">
 
         {projects.map((project, index) => (
           <div
